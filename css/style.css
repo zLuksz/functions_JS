@@ -24,6 +24,11 @@ button:hover {
     filter: drop-shadow(3px 7px 3px);
 }
 
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
 .atividadehoje {
     background-color: cornflowerblue;
     border-radius: 2rem;
@@ -34,6 +39,113 @@ button:hover {
 .atividadeontem {
     background-color: cornflowerblue;
     border-radius: 2rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+input {
+    border-radius: 1rem;
+    border: none;
+    font-size: 19px;
+}
+
+.area_circular {
+    justify-content: center;
+    display: block;
+    background-color: #dc3565;
+    border-radius: 2rem;
+}
+.area_circular h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #eee;
+    background-color: #791c3696;
+    border-radius: 3rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.valor_hipotenusa {
+    justify-content: center;
+    display: block;
+    background-color: #dc3565;
+    border-radius: 2rem;
+}
+.valor_hipotenusa h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #eee;
+    background-color: #791c3696;
+    border-radius: 3rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.converter_dolar {
+    justify-content: center;
+    display: block;
+    background-color: #dc3565;
+    border-radius: 2rem;
+}
+.converter_dolar h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #eee;
+    background-color: #791c3696;
+    border-radius: 3rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.temperatura {
+    justify-content: center;
+    display: block;
+    background-color: #dc3565;
+    border-radius: 2rem;
+}
+.temperatura h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #eee;
+    background-color: #791c3696;
+    border-radius: 3rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.mediaalunos {
+    justify-content: center;
+    display: block;
+    background-color: #dc3565;
+    border-radius: 2rem;
+}
+.mediaalunos h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #eee;
+    background-color: #791c3696;
+    border-radius: 3rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.baskara {
+    justify-content: center;
+    display: block;
+    background-color: #dc3565;
+    border-radius: 2rem;
+}
+
+.baskara h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #eee;
+    background-color: #791c3696;
+    border-radius: 3rem;
     margin-left: 30%;
     margin-right: 30%;
 }
