@@ -8,25 +8,69 @@
     <title>Hello World</title>
 </head>
 <body>
-    <div class="calculator">
-        <h2>Somar 2 Números:</h2>
-        <button onclick="soma(3, 2)">Somar</button>
-        <button onclick="subtracao(3, 2)">Subtrair</button>
-        <button onclick="multiplicacao(3, 2)">Multiplicar</button>
-        <button onclick="divisao(3, 2)">Dividir</button>
-    </div>
-    <div>
-        <button onclick="mostrarnome()">Ver Nome</button>
-    </div>
+    <section class="atividadeontem">
+        <h1>Calculadora</h1>
+        <div class="calculator">
+            <h2>Somar 2 Números:</h2>
+            <button onclick="soma(3, 2)">Somar</button>
+            <button onclick="subtracao(3, 2)">Subtrair</button>
+            <button onclick="multiplicacao(3, 2)">Multiplicar</button>
+            <button onclick="divisao(3, 2)">Dividir</button>
+        </div>
+        <div>
+            <button onclick="mostrarnome()">Ver Nome</button>
+        </div>
+    
+        <div class="retangulo">
+            <h2>Calcular Area De Um Retangulo</h2>
+            <button onclick="retangulo(10, 14)">Calcular Retangulo</button>
+        </div>
+        <div class="areacirculo">
+            <h2>Calcular Area Circulo</h2>
+            <button onclick="areacirculo(10, 14)">Calcular Area Circulo</button>
+        </div>
+    </section>
 
-    <div class="retangulo">
-        <h2>Calcular Area De Um Retangulo</h2>
-        <button onclick="retangulo(10, 14)">Calcular Retangulo</button>
-    </div>
-    <div class="areacirculo">
-        <h2>Calcular Area Circulo</h2>
-        <button onclick="areacirculo(10, 14)">Calcular Area Circulo</button>
-    </div>
+    <section class="atividadehoje">
+        <h1>Atividades Em Sala</h1>
+
+        <!-- 1) Crie uma função que calcule a area de um circula com base no valor do raio informado pelo usuario -->
+
+        <div class="area_circular">
+            <button onclick="calculararea_circulo()">Calcular Area Circulo</button>
+        </div>
+
+        <!-- 2) Crie uma função que calcule e mostre o valor da hipotenusa de um triangulo retangulo com base nos valores dos catetos informados pelo usuario -->
+
+        <div class="valor_hipotenusa">
+            <button onclick="area_triangulo()">Calcular Hipotenusa</button>
+        </div>
+
+        <!-- 3) Crie uma função que converta um valor em reais para dolares. -->
+
+        <div class="converter_dolar">
+            <button onclick="real_dolar()">Converter Reais Em Dolares</button>
+        </div>
+
+        <!-- 4) Converter uma temperatura em graus celsius para graus Fahrenhit. -->
+
+        <div class="temperatura">
+            <button onclick="graus_celcius()">Converter Temperatura Em Graus Fahrenhit</button>
+        </div>
+
+        <!-- 5) Calcular a media aritimetica entre 3 notas de um aluno -->
+
+        <div class="mediaalunos">
+            <button onclick="media_alunos()">Calcular Média Alunos</button>
+        </div>
+
+        <!-- 6) Obter as 2 reaizes de um equação do 2° grau a partir dos valores de a,be c (baskara) -->
+
+        <div class="baskara">
+            <button onclick="calcularRaizes()">Calcular Baskara</button>
+        </div>
+
+    </section>
 
 
 <script src="/js/script.js"></script>
