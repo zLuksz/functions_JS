@@ -27,6 +27,7 @@ function areacirculo(pi, raio) {
     alert(pi*(raio*raio));
 }
 
+// CALCULAR CIRCULO
 
 const pi = 3.14
 
@@ -36,12 +37,16 @@ function calculararea_circulo(){
     alert('A area do circulo e: ' + area);
 }
 
+// CALCULAR AREA TRIANGULO
+
 function area_triangulo(){
     let cateto1 = prompt('Digite o valor 1: ');
     let cateto2 = prompt('Digite o valor 2: ');
     let hipotenusa = Math.sqrt((cateto1 * cateto2) + (cateto1 * cateto2));
     alert('Sua Hipotenusa é: ' + hipotenusa);
 }
+
+// CONVERTER REAL EM DOLAR
 
 function real_dolar() {
     let valor_cotacao = 4.94
@@ -50,11 +55,15 @@ function real_dolar() {
     alert('O valor em dolares é: ' + conversao);
 }
 
+// CONVERTER GRAUS CELCIUS EM FAHRENHEIT
+
 function graus_celcius() {
     let graus_celcius = prompt('Insira A Temperatura De Hoje: ');
     fahrenheit = (graus_celcius * 1.8 + 32);
     alert('Temperatura Em Fahrenheit: ' + fahrenheit);
 }
+
+// CALCULAR MEDIA ALUNOS
 
 function media_alunos() {
     let nota1 = parseFloat(prompt('1° Nota: '));
@@ -64,6 +73,7 @@ function media_alunos() {
     alert('A Média Aritimetica é: ' + media_ponderada);
 }
 
+// CALCULAR BASKARA
 
 function calcularRaizes() {
     let a = parseFloat(prompt('Digite 1° Valor: '));
