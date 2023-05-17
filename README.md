@@ -1,1 +1,2 @@
-# helloworld
+# Functions in JavaScript
+# HTML/ CSS
