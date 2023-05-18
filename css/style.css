@@ -36,6 +36,14 @@ h1 {
     margin-right: 30%;
 }
 
+@media (max-width: 600px) {
+    .atividadehoje {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
 .atividadeontem {
     background-color: cornflowerblue;
     border-radius: 2rem;
