@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #eee;
+    background-color: #95b8f6;
 }
 
 button {
@@ -30,7 +30,7 @@ h1 {
 }
 
 .atividadehoje {
-    background-color: cornflowerblue;
+    background-color: #f9a59a;
     border-radius: 2rem;
     margin-left: 30%;
     margin-right: 30%;
@@ -72,6 +72,7 @@ input {
     display: block;
     background-color: #dc3565;
     border-radius: 2rem;
+    filter: drop-shadow(1px 2px 5px);
 }
 .area_circular h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -83,10 +84,12 @@ input {
 }
 
 .valor_hipotenusa {
+    margin-top: 20px;
     justify-content: center;
     display: block;
     background-color: #dc3565;
     border-radius: 2rem;
+    filter: drop-shadow(1px 2px 5px);
 }
 .valor_hipotenusa h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -98,10 +101,12 @@ input {
 }
 
 .converter_dolar {
+    margin-top: 20px;
     justify-content: center;
     display: block;
     background-color: #dc3565;
     border-radius: 2rem;
+    filter: drop-shadow(1px 2px 5px);
 }
 .converter_dolar h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -113,6 +118,8 @@ input {
 }
 
 .temperatura {
+    margin-top: 20px;
+    filter: drop-shadow(1px 2px 5px);
     justify-content: center;
     display: block;
     background-color: #dc3565;
@@ -128,6 +135,8 @@ input {
 }
 
 .mediaalunos {
+    margin-top: 20px;
+    filter: drop-shadow(1px 2px 5px);
     justify-content: center;
     display: block;
     background-color: #dc3565;
@@ -143,6 +152,8 @@ input {
 }
 
 .baskara {
+    margin-top: 20px;
+    filter: drop-shadow(1px 2px 5px);
     justify-content: center;
     display: block;
     background-color: #dc3565;
