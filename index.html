@@ -17,6 +17,7 @@
             <h1>Area Circulo</h1>
             <input type="number" id="raio" placeholder="Informe O Raio: ">
             <button onclick="calculararea_circulo()" id="numero">Calcular Area Circulo</button>
+            <div id="resultado" class="resultados"></div>
         </div>
 
         <!-- 2) Crie uma função que calcule e mostre o valor da hipotenusa de um triangulo retangulo com base nos valores dos catetos informados pelo usuario -->
@@ -26,15 +27,17 @@
             <input type="number" id="cateto1" placeholder="Digite O Valor 1: ">
             <input type="number" id="cateto2" placeholder="Digite O Valor 2: ">
             <button onclick="area_triangulo()">Calcular Hipotenusa</button>
+            <div id="resultadohi" class="resultados"></div>
         </div>
 
         <!-- 3) Crie uma função que converta um valor em reais para dolares. -->
 
         <div class="converter_dolar">
             <h1>Converter Em Dolar</h1>
-            <input type="number" id="valor_cotacao" value="4.94">
+            <input type="number" id="valor_cotacao" value="5.00">
             <input type="number" id="valor_reais" placeholder="Informar Valor Em Reais">
             <button onclick="real_dolar()">Converter Reais Em Dolares</button>
+            <div id="resultadodolar" class="resultados"></div>
         </div>
 
         <!-- 4) Converter uma temperatura em graus celsius para graus Fahrenhit. -->
@@ -43,6 +46,7 @@
             <h1>Converter °C</h1>
             <input type="number" id="graus_celcius" placeholder="Digite A Temperatura Em °C: ">
             <button onclick="graus_celcius()">Converter Temperatura Em Graus Fahrenhit</button>
+            <div id="resultatempera" class="resultados"></div>
         </div>
 
         <!-- 5) Calcular a media aritimetica entre 3 notas de um aluno -->
@@ -53,6 +57,7 @@
             <input type="number" id="nota2" placeholder="2° Nota: ">
             <input type="number" id="nota3" placeholder="3° Nota: ">
             <button onclick="media_alunos()">Calcular Média Alunos</button>
+            <div id="resultadomedia" class="resultados"></div>
         </div>
 
         <!-- 6) Obter as 2 reaizes de um equação do 2° grau a partir dos valores de a,be c (baskara) -->
@@ -63,6 +68,9 @@
             <input type="number" id="b" placeholder="Informe O 2° Valor: ">
             <input type="number" id="c" placeholder="Informe O 3° Valor: ">
             <button onclick="calcularRaizes()">Calcular Baskara</button>
+            <div id="semresultado" class="resultados"></div>
+            <div id="resultadobaskaraposstivo" class="resultados"></div>
+            <div id="resultadobaskaranegativo" class="resultados"></div>
         </div>
 
     </section>

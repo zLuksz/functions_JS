@@ -157,3 +157,8 @@ input {
     margin-left: 30%;
     margin-right: 30%;
 }
+
+.resultados {
+    font-size: 35px;
+    color: #eee;
+}
