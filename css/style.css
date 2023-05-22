@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #95b8f6;
+    background: rgb(53, 50, 119);
 }
 
 button {
@@ -30,10 +30,8 @@ h1 {
 }
 
 .atividadehoje {
-    background-color: #f9a59a;
-    border-radius: 2rem;
-    margin-left: 30%;
-    margin-right: 30%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 }
 
 @media (max-width: 600px) {
@@ -69,7 +67,6 @@ input {
 
 .area_circular {
     justify-content: center;
-    display: block;
     background-color: #dc3565;
     border-radius: 2rem;
     filter: drop-shadow(1px 2px 5px);
@@ -84,7 +81,6 @@ input {
 }
 
 .valor_hipotenusa {
-    margin-top: 20px;
     justify-content: center;
     display: block;
     background-color: #dc3565;
@@ -101,7 +97,6 @@ input {
 }
 
 .converter_dolar {
-    margin-top: 20px;
     justify-content: center;
     display: block;
     background-color: #dc3565;
@@ -118,7 +113,6 @@ input {
 }
 
 .temperatura {
-    margin-top: 20px;
     filter: drop-shadow(1px 2px 5px);
     justify-content: center;
     display: block;
@@ -135,7 +129,6 @@ input {
 }
 
 .mediaalunos {
-    margin-top: 20px;
     filter: drop-shadow(1px 2px 5px);
     justify-content: center;
     display: block;
@@ -152,7 +145,6 @@ input {
 }
 
 .baskara {
-    margin-top: 20px;
     filter: drop-shadow(1px 2px 5px);
     justify-content: center;
     display: block;
@@ -161,6 +153,55 @@ input {
 }
 
 .baskara h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #eee;
+    background-color: #791c3696;
+    border-radius: 3rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.velocidade {
+    filter: drop-shadow(1px 2px 5px);
+    justify-content: center;
+    display: block;
+    background-color: #dc3565;
+    border-radius: 2rem;
+}
+
+.velocidade h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #eee;
+    background-color: #791c3696;
+    border-radius: 3rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.area_retangulo {
+    filter: drop-shadow(1px 2px 5px);
+    justify-content: center;
+    display: block;
+    background-color: #dc3565;
+    border-radius: 2rem;
+}
+
+.area_retangulo h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #eee;
+    background-color: #791c3696;
+    border-radius: 3rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.area_triangulo {
+    filter: drop-shadow(1px 2px 5px);
+    justify-content: center;
+    display: block;
+    background-color: #dc3565;
+    border-radius: 2rem;
+}
+
+.area_triangulo h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #eee;
     background-color: #791c3696;

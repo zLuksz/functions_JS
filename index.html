@@ -9,9 +9,7 @@
 </head>
 <body>
     <section class="atividadehoje">
-        <h1>Atividades Em Sala</h1>
-
-        <!-- 1) Crie uma função que calcule a area de um circula com base no valor do raio informado pelo usuario -->
+        <!-- Crie uma função que calcule a area de um circula com base no valor do raio informado pelo usuario -->
 
         <div class="area_circular">
             <h1>Area Circulo</h1>
@@ -20,17 +18,37 @@
             <div id="resultado" class="resultados"></div>
         </div>
 
-        <!-- 2) Crie uma função que calcule e mostre o valor da hipotenusa de um triangulo retangulo com base nos valores dos catetos informados pelo usuario -->
+        <!-- Calcule Retangulo -->
+
+        <div class="area_retangulo">
+            <h1>Area Retangulo</h1>
+            <input type="number" id="baseretang" placeholder="Informe a Base: ">
+            <input type="number" id="alturaretang" placeholder="Informe a Altura: ">
+            <button onclick="calculararea_retangulo()" id="numero">Calcular Area Retangulo</button>
+            <div id="resultadoretang" class="resultados"></div>
+        </div>
+
+        <!-- Calcule Triangulo -->
+
+        <div class="area_triangulo">
+            <h1>Area Triangulo</h1>
+            <input type="number" id="basetriang" placeholder="Informe a Base: ">
+            <input type="number" id="alturatriang" placeholder="Informe a Altura: ">
+            <button onclick="area_triangulo()" id="numero">Calcular Area Triangulo</button>
+            <div id="resultadotriang" class="resultados"></div>
+        </div>
+
+        <!-- Crie uma função que calcule e mostre o valor da hipotenusa de um triangulo retangulo com base nos valores dos catetos informados pelo usuario -->
 
         <div class="valor_hipotenusa">
             <h1>Valor Hipotenusa</h1>
             <input type="number" id="cateto1" placeholder="Digite O Valor 1: ">
             <input type="number" id="cateto2" placeholder="Digite O Valor 2: ">
-            <button onclick="area_triangulo()">Calcular Hipotenusa</button>
+            <button onclick="area_hipotenusa()">Calcular Hipotenusa</button>
             <div id="resultadohi" class="resultados"></div>
         </div>
 
-        <!-- 3) Crie uma função que converta um valor em reais para dolares. -->
+        <!-- Crie uma função que converta um valor em reais para dolares. -->
 
         <div class="converter_dolar">
             <h1>Converter Em Dolar</h1>
@@ -40,7 +58,7 @@
             <div id="resultadodolar" class="resultados"></div>
         </div>
 
-        <!-- 4) Converter uma temperatura em graus celsius para graus Fahrenhit. -->
+        <!-- Converter uma temperatura em graus celsius para graus Fahrenhit. -->
 
         <div class="temperatura">
             <h1>Converter °C</h1>
@@ -49,7 +67,7 @@
             <div id="resultatempera" class="resultados"></div>
         </div>
 
-        <!-- 5) Calcular a media aritimetica entre 3 notas de um aluno -->
+        <!-- Calcular a media aritimetica entre 3 notas de um aluno -->
 
         <div class="mediaalunos">
             <h1>Média Alunos</h1>
@@ -60,7 +78,7 @@
             <div id="resultadomedia" class="resultados"></div>
         </div>
 
-        <!-- 6) Obter as 2 reaizes de um equação do 2° grau a partir dos valores de a,be c (baskara) -->
+        <!-- Obter as 2 reaizes de um equação do 2° grau a partir dos valores de a,be c (baskara) -->
 
         <div class="baskara">
             <h1>Baskara</h1>
@@ -71,6 +89,15 @@
             <div id="semresultado" class="resultados"></div>
             <div id="resultadobaskaraposstivo" class="resultados"></div>
             <div id="resultadobaskaranegativo" class="resultados"></div>
+        </div>
+
+        <!-- Converter Velocidade -->
+
+        <div class="velocidade">
+            <h1>Converter Velocidade</h1>
+            <input type="number" id="kmhora" placeholder="Informe Km/Hora: ">
+            <button onclick="conversaoVelocidade()">Converter Km / Hora</button>
+            <div id="conversaokm" class="resultados"></div>
         </div>
 
     </section>
