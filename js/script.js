@@ -22,7 +22,7 @@ function area_triangulo(){
 function real_dolar() {
     var valor_cotacao = parseInt(document.getElementById('valor_cotacao').value);
     var valor_reais = parseInt(document.getElementById('valor_reais').value);
-    let conversao = (valor_cotacao * valor_reais).toFixed(2);
+    let conversao = (valor_reais / valor_cotacao).toFixed(2);
     document.getElementById('resultadodolar').innerHTML = conversao;
 }
 
