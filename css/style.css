@@ -15,13 +15,13 @@ button {
     font-size: 1.2rem;
     border-radius: 1rem;
     padding: 6px;
-    filter: drop-shadow(3px 5px 0px);   
+    filter: drop-shadow(3px 2px 0px);   
     cursor: pointer;
 }
 button:hover {
     color: black;
     background-color: #eee;
-    filter: drop-shadow(3px 7px 3px);
+    filter: drop-shadow(3px 3px 3px);
 }
 
 h1 {
@@ -40,13 +40,6 @@ h1 {
         margin-left: 0;
         margin-right: 0;
     }
-}
-
-.atividadeontem {
-    background-color: cornflowerblue;
-    border-radius: 2rem;
-    margin-left: 30%;
-    margin-right: 30%;
 }
 
 input[type=number]::-webkit-inner-spin-button { 
@@ -70,6 +63,7 @@ input {
     background-color: #dc3565;
     border-radius: 2rem;
     filter: drop-shadow(1px 2px 5px);
+    max-width: 100%;
 }
 .area_circular h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -211,6 +205,30 @@ input {
 }
 
 .resultados {
+    font-size: 35px;
+    color: #eee;
+}
+
+.calculadoradigital {
+    display: grid;
+    background-color: #dc3565;
+    border-radius: 2rem;
+    filter: drop-shadow(1px 2px 5px);
+    justify-content: center;
+}
+
+.calculadoradigital h1 {
+    color: #eee;
+    background-color: #791c3696;
+    border-radius: 3rem;
+}
+
+.calculadoradigital button {
+    font-size: 30px;
+    padding: 3px;
+}
+
+#resultadocalculadora {
     font-size: 35px;
     color: #eee;
 }

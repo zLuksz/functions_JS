@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Functions</title>
+    <title>Functions | Js</title>
 </head>
 <body>
     <section class="atividadehoje">
@@ -98,6 +98,27 @@
             <input type="number" id="kmhora" placeholder="Informe Km/Hora: ">
             <button onclick="conversaoVelocidade()">Converter Km / Hora</button>
             <div id="conversaokm" class="resultados"></div>
+        </div>
+
+        <!-- Calculadora Cientifica -->
+
+        <div class="calculadoradigital">
+            <div>
+                <h1>Calculadora Cientifica</h1>
+            </div>
+            <div class="entrada">
+                <input type="number" id="numero1" placeholder="Digite O 1° Número:">
+                <input type="number" id="numero2" placeholder="Digite O 2° Número:">
+            </div>
+            <div class="verificacao">
+                <button  onclick="calculadorasomar()"><p>+</p></button>
+                <button  onclick="calculadorasubtrair()"><p>-</p></button>
+                <button  onclick="calculadoramultiplicar()"><p>*</p></button>
+                <button  onclick="calculadoradividir()"><p>/</p></button>
+            </div>
+            <div class="saida">
+                <div id="resultadocalculadora"></div>
+            </div>
         </div>
 
     </section>
